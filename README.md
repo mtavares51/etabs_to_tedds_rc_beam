@@ -4,6 +4,6 @@
 ### BeamPostProcessing_rev8.py
 This is the main file. Edit beam framename, stations, combinations and reinforcement preferences on this file.
 
-It is working on ETABS 17 and Tedds 2020.
+It is working on CSI ETABS 17 and Trimble Tedds 2020.
 Nothing has been tested.
 Contributions are welcomed.
