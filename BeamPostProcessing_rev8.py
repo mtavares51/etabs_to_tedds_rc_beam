@@ -18,8 +18,8 @@ from get_beam_rebar_rev1 import get_beam_rebar
 
 ### script inputs
 framename = '6'  # frame unique name in ETABS. Ensure frame name is exactly what you want
-                   # this could be developed to run over selected elements
-stations = [3.75, 7.5, 11.25]  # stations to output in meters
+                   # this could be developed to run over selected elements in etabs interface
+stations = [3.75, 7.5, 11.25]  # stations to output in meters. This assumes your beam is longer than 11.25 meters, of course...
 combos = ['ULS-grav', 'SLS']  # combos to output. It should be a list: [ULS, SLS].
 
 pref_d = 32  #  diameter for long rebar
